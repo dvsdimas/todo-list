@@ -7,8 +7,7 @@
                  [ring "1.6.3"]
                  [compojure "1.6.0"]]
   :min-lein-version "2.0.0"
-  :main ^:skip-aot todo-list.core
+  :uberjar-name "todo-list.jar"
+  :main todo-list.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all
-                       :uberjar-name "todo-list.jar"}
-             :dev {:main ^:skip-aot todo-list.dev-core}})
+  :profiles {:dev {:main todo-list.dev-core}})
