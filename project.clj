@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [ring "1.6.3"]
                  [compojure "1.6.0"]]
+  :min-lein-version "2.0.0"
   :main ^:skip-aot todo-list.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
