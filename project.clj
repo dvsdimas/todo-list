@@ -6,7 +6,10 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [ring "1.6.3"]
                  [compojure "1.6.0"]
-                 [environ "1.1.0"]]
+                 [environ "1.1.0"]
+                 [org.clojure/java.jdbc "0.7.5"]
+                 [org.postgresql/postgresql "42.2.1"]]
+
   :plugins [[lein-environ "1.1.0"]]
   :min-lein-version "2.0.0"
   :main todo-list.core
